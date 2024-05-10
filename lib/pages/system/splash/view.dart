@@ -16,7 +16,6 @@ class SplashPage extends GetView<SplashController> {
 
   @override
   Widget build(BuildContext context) {
-    print('--------${ConfigService.to.version}');
     return GetBuilder<SplashController>(
       init: SplashController(),
       id: "splash",
