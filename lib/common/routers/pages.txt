@@ -1,0 +1,29 @@
+
+      GetPage(
+        name: RouteNames.cartCartIndex,
+        page: () => const CartIndexPage(),
+      ),
+      GetPage(
+        name: RouteNames.goodsDetail,
+        page: () => const DetailPage(),
+      ),
+      GetPage(
+        name: RouteNames.goodsHome,
+        page: () => const HomePage(),
+      ),
+      GetPage(
+        name: RouteNames.myMyIndex,
+        page: () => const MyIndexPage(),
+      ),
+      GetPage(
+        name: RouteNames.systemLogin,
+        page: () => const LoginPage(),
+      ),
+      GetPage(
+        name: RouteNames.systemMain,
+        page: () => const MainPage(),
+      ),
+      GetPage(
+        name: RouteNames.systemSplash,
+        page: () => const SplashPage(),
+      ),
