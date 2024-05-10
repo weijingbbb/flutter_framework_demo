@@ -1,3 +1,10 @@
 library pages;
 
 // export './xxxx.dart';
+export 'cart/cart_index/index.dart';
+export 'goods/detail/index.dart';
+export 'goods/home/index.dart';
+export 'my/my_index/index.dart';
+export 'system/login/index.dart';
+export 'system/main/index.dart';
+export 'system/splash/index.dart';
